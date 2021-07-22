@@ -1,10 +1,43 @@
 /*
     Theme Name: ximi-dogs
     Author: William Souza */
+/* VARIABLES */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* GENERAL */
 body {
-	background-image: linear-gradient(to right, #00BFFF, white);
+	background-image: linear-gradient(to right, #00BFFF, #BBB);
+	font-family: 'Roboto',sans-serif;
 }
 
+body ul li {
+	list-style: none;
+}
+
+body a, body a:visited, body a:hover {
+	text-decoration: none;
+	color: #28203e;
+}
+
+/* HEADER */
+header {
+	padding: 20px 0 20px 0;
+	padding-position: flex;
+	padding-flex-direction: row;
+	border: 1px solid #737380;
+	border-align-items: center;
+	border-text-align: center;
+	border-justify-content: center;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	display: block;
+	width: 100%;
+	background-color: #1E90FF;
+	z-index: 999;
+}
+
+/* FOOTER */
+/* INDEX */
 .carousel-item img {
 	border-radius: 10px;
 }
