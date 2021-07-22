@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-<div class="main">
-    <p>Adote um animalzinho, eles trazem alegria. Veja os melhores momentos:</p>
-    <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+<div class="main container-fluid">
+    <div class="col-sm-6">  <p>Adote um animalzinho, eles trazem alegria. Veja os melhores momentos:</p></div>
+    <div id="dogPics" class="carousel slide carousel-dark container-fluid col-sm-3" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="<?php echo get_template_directory_uri(  ) . '/assets/doga1.jpeg' ?>" class="d-block w-100" alt="doga1">

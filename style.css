@@ -1,5 +1,12 @@
 /*
     Theme Name: ximi-dogs
     Author: William Souza */
+body {
+	background-image: linear-gradient(to right, #00BFFF, white);
+}
+
+.carousel-item img {
+	border-radius: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
