@@ -17,18 +17,16 @@ body ul li {
 body a, body a:visited, body a:hover {
 	text-decoration: none;
 	color: #28203e;
+	font-weight: bold;
 }
 
 /* HEADER */
 header {
-	padding: 20px 0 20px 0;
+	padding: 20px 0 10px 0;
 	display: flex;
-	border: 1px solid #737380;
+	border-bottom: 1px solid #737380;
 	text-align: center;
 	justify-content: center;
-	border-left-width: 0px;
-	border-right-width: 0px;
-	border-top-width: 0px;
 	width: 100%;
 	background-color: #1E90FF;
 	z-index: 999;
@@ -52,6 +50,14 @@ header a:hover {
 }
 
 /* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0px;
+	padding-left: 5px;
+	border-top: 1px solid #28203e;
+	width: 100%;
+}
+
 /* INDEX */
 .carousel-item img {
 	border-radius: 10px;

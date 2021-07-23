@@ -27,6 +27,7 @@ body {
     a, a:visited, a:hover {
         text-decoration: none;
         color: $color_secondary_dark;
+        font-weight: bold;
     }
         
 }
@@ -35,14 +36,11 @@ body {
 /* HEADER */
 
 header {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 10px 0;
     display: flex;
-	border: 1px solid #737380;
+	border-bottom: 1px solid #737380;
     text-align: center;
     justify-content: center;
-	border-left-width: 0px;
-	border-right-width: 0px;
-	border-top-width: 0px;
 	width: 100%;
 	background-color: $color_primary_dark;
 	z-index: 999;
@@ -68,7 +66,13 @@ header {
 	
 
 /* FOOTER */
-
+footer {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 5px;
+    border-top: 1px solid $color_secondary_dark;
+    width: 100%;
+}
 
 /* INDEX */
 
