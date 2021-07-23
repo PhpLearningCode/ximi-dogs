@@ -1,3 +1,6 @@
 <?php get_header(  ); ?>
-<p>PAGEEEEE</p>
+<h3><?php the_title( ); ?></h3>
+<div class="content">
+    <?php the_content(  ); ?>
+</div>
 <?php get_footer(  ); ?>
